@@ -1,0 +1,51 @@
+.home {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+
+  background-color: blueviolet;
+  background-image: url("image/jj2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home1 {
+  display: flex;
+}
+.home2 {
+  background-color: rgb(234, 76, 76);
+  height: 100vh;
+  width: 40vh;
+  text-align: center;
+}
+.home2 a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+a:hover {
+  background-color: rgb(17, 0, 255);
+}
+.home2 img {
+  height: 20vh;
+  width: 20vh;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+.footer {
+  padding-top: 110px;
+}
+
+.another-home {
+  padding-left: 900px;
+  padding-top: 550px;
+}
+.body-part {
+  text-align: center;
+  margin: auto;
+}
+.home2 .active {
+  color: black;
+  pointer-events: none;
+}
